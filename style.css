@@ -32,6 +32,7 @@ button {
     animation-iteration-count: 5;
    animation-duration: 10s;
     animation-direction: alternate-reverse;
+    cursor: pointer;
 }
 @keyframes rotate {
     50% {
