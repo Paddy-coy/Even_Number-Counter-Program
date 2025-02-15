@@ -1,0 +1,46 @@
+body {
+    background: black;
+}
+
+#countH1 {
+    color: blue;
+    font-size: 6rem;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: oblique;
+}
+#countH1:hover {
+   color: turquoise;
+}
+div {
+   
+    text-align: center;
+}
+button {
+    padding: 20px;
+    width: 200px;
+    border: transparent;
+    background: radial-gradient(green,orange,purple);
+    font-size: 2em;
+    color: white;
+    border-radius: 10px;
+}
+
+button {
+    animation-name: rotate;
+    animation-delay: 2s;
+    animation-iteration-count: 5;
+   animation-duration: 10s;
+    animation-direction: alternate-reverse;
+}
+@keyframes rotate {
+    50% {
+        transform: translate(400px,-100px);
+        background: #5F5980;
+    }
+}
+@media (max-width:400px) {
+    button {
+        margin: 20px;
+    }
+}
